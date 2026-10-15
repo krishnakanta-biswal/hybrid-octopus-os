@@ -9,21 +9,23 @@ import ModuleRoutePage from "../pages/ModuleRoutePage/ModuleRoutePage";
 export default function App() {
   return (
     <Routes>
-      {/* Public website */}
       <Route path="/" element={<LandingPage />} />
 
-      {/* Authentication */}
       <Route path="/auth" element={<AuthPage />} />
       <Route path="/login" element={<AuthPage />} />
       <Route path="/signup" element={<AuthPage />} />
 
-      {/* Main dashboard */}
       <Route path="/dashboard" element={<DashboardPage />} />
 
-      {/* Workspace modules */}
-      <Route path="/:moduleName" element={<ModuleRoutePage />} />
+      <Route path="/intelligence" element={<ModuleRoutePage />} />
+      <Route path="/context" element={<ModuleRoutePage />} />
+      <Route path="/workflows" element={<ModuleRoutePage />} />
+      <Route path="/integrations" element={<ModuleRoutePage />} />
+      <Route path="/activity" element={<ModuleRoutePage />} />
+      <Route path="/security" element={<ModuleRoutePage />} />
+      <Route path="/settings" element={<ModuleRoutePage />} />
+      <Route path="/help" element={<ModuleRoutePage />} />
 
-      {/* Unknown routes */}
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
