@@ -1,0 +1,88 @@
+
+.os-app-shell {
+  --os-sidebar-width: 256px;
+
+  min-height: 100vh;
+  min-height: 100dvh;
+  color: var(--color-text-primary, #f3f6fc);
+  background: var(--color-canvas, #080d18);
+}
+
+.os-app-main {
+  width: calc(100% - var(--os-sidebar-width));
+  min-width: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin-left: var(--os-sidebar-width);
+  transition:
+    width 320ms cubic-bezier(0.22, 1, 0.36, 1),
+    margin-left 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.os-page-content {
+  min-width: 0;
+  min-height: calc(100vh - 70px);
+  min-height: calc(100dvh - 70px);
+}
+
+/* Desktop: keep the icon rail visible after collapsing */
+@media (min-width: 900px) {
+  .os-app-shell.os-sidebar-collapsed {
+    --os-sidebar-width: 76px;
+  }
+
+  .os-app-shell.os-sidebar-collapsed .os-sidebar {
+    width: 76px;
+    transform: translateX(0);
+  }
+
+  .os-app-shell.os-sidebar-collapsed .os-sidebar-overlay {
+    display: none;
+  }
+}
+
+/* Mobile: full-screen workspace with an animated drawer */
+@media (max-width: 899px) {
+  .os-app-main {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .os-app-shell .os-sidebar {
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateX(-102%);
+  }
+
+  .os-app-shell.os-mobile-sidebar-open .os-sidebar {
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(0);
+  }
+
+  .os-app-shell:not(.os-mobile-sidebar-open) .os-sidebar-overlay {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .os-app-shell.os-mobile-sidebar-open .os-sidebar-overlay {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .os-page-content {
+    min-height: calc(100dvh - 62px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .os-app-main,
+  .os-sidebar,
+  .os-sidebar-overlay {
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,187 @@
+
+{
+  "intelligence": {
+    "eyebrow": "AI ORCHESTRATION",
+    "title": "Intelligence",
+    "description": "Manage your AI models, monitor usage, and coordinate intelligence across your workspace.",
+    "stats": [
+      { "id": "models", "label": "Connected models", "value": "12", "change": "+2 this month", "icon": "brain", "accent": "mint" },
+      { "id": "requests", "label": "Total requests", "value": "24.8K", "change": "+18.2%", "icon": "activity", "accent": "blue" },
+      { "id": "latency", "label": "Avg. response time", "value": "284 ms", "change": "Within target", "icon": "zap", "accent": "purple" },
+      { "id": "availability", "label": "Service availability", "value": "99.9%", "change": "Operational", "icon": "shield", "accent": "amber" }
+    ],
+    "sectionTitle": "Connected intelligence",
+    "sectionDescription": "An overview of the AI resources available in your workspace.",
+    "items": [
+      { "id": "openai", "title": "OpenAI", "subtitle": "General-purpose AI models", "category": "Language model", "status": "Connected", "detail": "Last activity: Just now", "icon": "brain", "accent": "mint" },
+      { "id": "anthropic", "title": "Anthropic", "subtitle": "Reasoning and analysis models", "category": "Language model", "status": "Connected", "detail": "Last activity: 12 minutes ago", "icon": "sparkles", "accent": "purple" },
+      { "id": "local-models", "title": "Local models", "subtitle": "Self-hosted intelligence resources", "category": "Local provider", "status": "Available", "detail": "Ready to configure", "icon": "cpu", "accent": "blue" }
+    ],
+    "activityTitle": "Model activity",
+    "activities": [
+      { "id": "a1", "title": "Workspace model registry loaded", "description": "Your connected intelligence resources are ready.", "time": "Just now", "status": "success" },
+      { "id": "a2", "title": "Usage metrics refreshed", "description": "Workspace analytics are up to date.", "time": "12 minutes ago", "status": "info" }
+    ]
+  },
+  "context": {
+    "eyebrow": "KNOWLEDGE LAYER",
+    "title": "Context & Memory",
+    "description": "Organize knowledge sources and build persistent context for your intelligent workflows.",
+    "stats": [
+      { "id": "sources", "label": "Knowledge sources", "value": "08", "change": "2 recently added", "icon": "database", "accent": "mint" },
+      { "id": "memories", "label": "Memory records", "value": "1,842", "change": "+12.4%", "icon": "brain", "accent": "blue" },
+      { "id": "indexed", "label": "Indexed documents", "value": "326", "change": "Up to date", "icon": "layers", "accent": "purple" },
+      { "id": "health", "label": "Index health", "value": "Healthy", "change": "No issues detected", "icon": "shield", "accent": "amber" }
+    ],
+    "sectionTitle": "Knowledge sources",
+    "sectionDescription": "Manage the sources that provide context to your AI systems.",
+    "items": [
+      { "id": "workspace-docs", "title": "Workspace documents", "subtitle": "Shared knowledge and reference material", "category": "Documents", "status": "Connected", "detail": "126 documents indexed", "icon": "files", "accent": "mint" },
+      { "id": "project-memory", "title": "Project memory", "subtitle": "Persistent project-specific context", "category": "Memory", "status": "Active", "detail": "Last updated: Today", "icon": "brain", "accent": "purple" },
+      { "id": "external-knowledge", "title": "External knowledge", "subtitle": "Connect additional information sources", "category": "Integrations", "status": "Available", "detail": "Ready to configure", "icon": "globe", "accent": "blue" }
+    ],
+    "activityTitle": "Memory activity",
+    "activities": [
+      { "id": "a1", "title": "Knowledge index checked", "description": "The local workspace index is healthy.", "time": "Just now", "status": "success" },
+      { "id": "a2", "title": "Memory synchronization", "description": "Sample synchronization activity.", "time": "Today", "status": "info" }
+    ]
+  },
+  "workflows": {
+    "eyebrow": "AUTOMATION ENGINE",
+    "title": "Workflows",
+    "description": "Design, organize, and monitor automated processes across your intelligence environment.",
+    "stats": [
+      { "id": "total", "label": "Total workflows", "value": "08", "change": "Across workspace", "icon": "workflow", "accent": "mint" },
+      { "id": "active", "label": "Active workflows", "value": "05", "change": "Ready to run", "icon": "activity", "accent": "blue" },
+      { "id": "runs", "label": "Executions today", "value": "142", "change": "+16.8%", "icon": "zap", "accent": "purple" },
+      { "id": "success", "label": "Success rate", "value": "98.6%", "change": "Last 7 days", "icon": "shield", "accent": "amber" }
+    ],
+    "sectionTitle": "Your workflows",
+    "sectionDescription": "Review workflow availability and recent execution activity.",
+    "items": [
+      { "id": "content-pipeline", "title": "Content pipeline", "subtitle": "Process and organize content automatically", "category": "Automation", "status": "Active", "detail": "Last run: 8 minutes ago", "icon": "workflow", "accent": "mint" },
+      { "id": "knowledge-sync", "title": "Knowledge synchronization", "subtitle": "Keep workspace context up to date", "category": "Data processing", "status": "Active", "detail": "Last run: 22 minutes ago", "icon": "database", "accent": "blue" },
+      { "id": "report-generator", "title": "Report generator", "subtitle": "Prepare structured workspace summaries", "category": "Automation", "status": "Paused", "detail": "Waiting for activation", "icon": "file-chart", "accent": "purple" }
+    ],
+    "activityTitle": "Execution activity",
+    "activities": [
+      { "id": "a1", "title": "Content pipeline completed", "description": "Sample workflow execution.", "time": "8 minutes ago", "status": "success" },
+      { "id": "a2", "title": "Report generator paused", "description": "The workflow is not currently running.", "time": "Yesterday", "status": "info" }
+    ]
+  },
+  "integrations": {
+    "eyebrow": "CONNECTED ECOSYSTEM",
+    "title": "Integrations",
+    "description": "Bring your tools, services, and external systems into one connected workspace.",
+    "stats": [
+      { "id": "connected", "label": "Connected services", "value": "06", "change": "Across workspace", "icon": "plug", "accent": "mint" },
+      { "id": "available", "label": "Available connectors", "value": "18", "change": "Explore connections", "icon": "layers", "accent": "blue" },
+      { "id": "events", "label": "Events today", "value": "2.4K", "change": "+8.6%", "icon": "activity", "accent": "purple" },
+      { "id": "health", "label": "Connection health", "value": "Healthy", "change": "No known issues", "icon": "shield", "accent": "amber" }
+    ],
+    "sectionTitle": "Your connections",
+    "sectionDescription": "Review your current connections and discover additional integrations.",
+    "items": [
+      { "id": "github", "title": "GitHub", "subtitle": "Repositories and development activity", "category": "Developer tools", "status": "Connected", "detail": "Connection healthy", "icon": "github", "accent": "mint" },
+      { "id": "slack", "title": "Team messaging", "subtitle": "Workspace notifications and collaboration", "category": "Communication", "status": "Available", "detail": "Ready to configure", "icon": "message", "accent": "blue" },
+      { "id": "custom-api", "title": "Custom API", "subtitle": "Connect your own external services", "category": "Developer tools", "status": "Available", "detail": "Configure an endpoint", "icon": "plug", "accent": "purple" }
+    ],
+    "activityTitle": "Integration activity",
+    "activities": [
+      { "id": "a1", "title": "Connection health checked", "description": "Sample integration status check.", "time": "Just now", "status": "success" },
+      { "id": "a2", "title": "New connector available", "description": "Additional integration options are available.", "time": "Today", "status": "info" }
+    ]
+  },
+  "activity": {
+    "eyebrow": "WORKSPACE OBSERVABILITY",
+    "title": "Activity",
+    "description": "Follow important workspace events and review what has happened across your systems.",
+    "stats": [
+      { "id": "events", "label": "Events today", "value": "1,284", "change": "+18.2%", "icon": "activity", "accent": "mint" },
+      { "id": "success", "label": "Successful actions", "value": "1,246", "change": "97.0% of events", "icon": "shield", "accent": "blue" },
+      { "id": "automations", "label": "Automated actions", "value": "142", "change": "Today", "icon": "workflow", "accent": "purple" },
+      { "id": "alerts", "label": "Open alerts", "value": "03", "change": "Review required", "icon": "bell", "accent": "amber" }
+    ],
+    "sectionTitle": "Event timeline",
+    "sectionDescription": "A sample timeline of recent events from your workspace.",
+    "items": [
+      { "id": "event-1", "title": "Workspace initialized", "subtitle": "Workspace environment loaded successfully", "category": "System", "status": "Success", "detail": "Just now", "icon": "sparkles", "accent": "mint" },
+      { "id": "event-2", "title": "Intelligence module accessed", "subtitle": "Module overview opened", "category": "Navigation", "status": "Success", "detail": "12 minutes ago", "icon": "brain", "accent": "blue" },
+      { "id": "event-3", "title": "Security settings reviewed", "subtitle": "Workspace security controls viewed", "category": "Security", "status": "Success", "detail": "1 hour ago", "icon": "shield", "accent": "purple" }
+    ],
+    "activityTitle": "Recent events",
+    "activities": [
+      { "id": "a1", "title": "Workspace initialized", "description": "Sample event record.", "time": "Just now", "status": "success" },
+      { "id": "a2", "title": "Security settings reviewed", "description": "Sample event record.", "time": "1 hour ago", "status": "info" }
+    ]
+  },
+  "security": {
+    "eyebrow": "TRUST & GOVERNANCE",
+    "title": "Security",
+    "description": "Review workspace protection, access controls, and important security activity.",
+    "stats": [
+      { "id": "score", "label": "Security status", "value": "Healthy", "change": "Sample status", "icon": "shield", "accent": "mint" },
+      { "id": "members", "label": "Workspace members", "value": "04", "change": "Access configured", "icon": "users", "accent": "blue" },
+      { "id": "sessions", "label": "Active sessions", "value": "02", "change": "Sample data", "icon": "activity", "accent": "purple" },
+      { "id": "alerts", "label": "Security alerts", "value": "00", "change": "No sample alerts", "icon": "bell", "accent": "amber" }
+    ],
+    "sectionTitle": "Security controls",
+    "sectionDescription": "Review available workspace protection settings.",
+    "items": [
+      { "id": "access", "title": "Access management", "subtitle": "Review workspace roles and permissions", "category": "Identity", "status": "Available", "detail": "Review access settings", "icon": "users", "accent": "mint" },
+      { "id": "sessions", "title": "Session management", "subtitle": "Review signed-in sessions", "category": "Sessions", "status": "Available", "detail": "Review session settings", "icon": "activity", "accent": "blue" },
+      { "id": "audit", "title": "Audit history", "subtitle": "Review security-related workspace events", "category": "Audit", "status": "Available", "detail": "View activity history", "icon": "file-text", "accent": "purple" }
+    ],
+    "activityTitle": "Security activity",
+    "activities": [
+      { "id": "a1", "title": "Security overview checked", "description": "Sample security activity record.", "time": "Just now", "status": "success" },
+      { "id": "a2", "title": "Access controls available", "description": "Workspace access settings are ready for review.", "time": "Today", "status": "info" }
+    ]
+  },
+  "settings": {
+    "eyebrow": "WORKSPACE CONFIGURATION",
+    "title": "Settings",
+    "description": "Manage your workspace preferences and configure your Hybrid Octopus OS environment.",
+    "stats": [
+      { "id": "profile", "label": "Profile", "value": "Ready", "change": "Personal settings", "icon": "users", "accent": "mint" },
+      { "id": "workspace", "label": "Workspace", "value": "Active", "change": "Configuration", "icon": "layers", "accent": "blue" },
+      { "id": "notifications", "label": "Notifications", "value": "Enabled", "change": "Sample preference", "icon": "bell", "accent": "purple" },
+      { "id": "security", "label": "Security", "value": "Protected", "change": "Review controls", "icon": "shield", "accent": "amber" }
+    ],
+    "sectionTitle": "Configuration",
+    "sectionDescription": "Choose an area to review or configure.",
+    "items": [
+      { "id": "profile", "title": "Personal profile", "subtitle": "Manage your display name and account details", "category": "Account", "status": "Available", "detail": "Profile preferences", "icon": "users", "accent": "mint" },
+      { "id": "workspace", "title": "Workspace preferences", "subtitle": "Manage workspace identity and preferences", "category": "Workspace", "status": "Available", "detail": "Workspace configuration", "icon": "layers", "accent": "blue" },
+      { "id": "notifications", "title": "Notifications", "subtitle": "Review notification preferences", "category": "Preferences", "status": "Available", "detail": "Notification configuration", "icon": "bell", "accent": "purple" }
+    ],
+    "activityTitle": "Configuration activity",
+    "activities": [
+      { "id": "a1", "title": "Settings overview opened", "description": "Sample settings activity.", "time": "Just now", "status": "success" },
+      { "id": "a2", "title": "Workspace preferences available", "description": "Configuration options are ready to review.", "time": "Today", "status": "info" }
+    ]
+  },
+  "help": {
+    "eyebrow": "SUPPORT CENTER",
+    "title": "Help & Support",
+    "description": "Find guidance, explore common topics, and get help using your workspace.",
+    "stats": [
+      { "id": "guides", "label": "Help guides", "value": "12", "change": "Getting started", "icon": "book", "accent": "mint" },
+      { "id": "topics", "label": "Support topics", "value": "08", "change": "Common questions", "icon": "layers", "accent": "blue" },
+      { "id": "status", "label": "System status", "value": "Healthy", "change": "Sample status", "icon": "activity", "accent": "purple" },
+      { "id": "support", "label": "Support access", "value": "Available", "change": "Contact options", "icon": "message", "accent": "amber" }
+    ],
+    "sectionTitle": "Explore support",
+    "sectionDescription": "Browse common help resources and support options.",
+    "items": [
+      { "id": "getting-started", "title": "Getting started", "subtitle": "Learn the fundamentals of your workspace", "category": "Guide", "status": "Available", "detail": "Workspace introduction", "icon": "book", "accent": "mint" },
+      { "id": "documentation", "title": "Documentation", "subtitle": "Explore feature explanations and guidance", "category": "Resources", "status": "Available", "detail": "Product guides", "icon": "files", "accent": "blue" },
+      { "id": "contact", "title": "Contact support", "subtitle": "Find assistance for workspace questions", "category": "Support", "status": "Available", "detail": "Support options", "icon": "message", "accent": "purple" }
+    ],
+    "activityTitle": "Support updates",
+    "activities": [
+      { "id": "a1", "title": "Support center ready", "description": "Sample help center status.", "time": "Just now", "status": "success" },
+      { "id": "a2", "title": "Documentation available", "description": "Help resources are listed in this workspace.", "time": "Today", "status": "info" }
+    ]
+  }
+}

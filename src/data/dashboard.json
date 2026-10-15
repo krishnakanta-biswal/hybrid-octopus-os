@@ -1,0 +1,140 @@
+
+{
+  "user": {
+    "name": "Alex Morgan",
+    "role": "Workspace Owner",
+    "avatar": "AM",
+    "workspace": "Personal workspace"
+  },
+  "overview": {
+    "title": "Your intelligence, connected.",
+    "subtitle": "A clear view of your AI workspace, activity and connected systems.",
+    "period": "Last 7 days"
+  },
+  "metrics": [
+    {
+      "id": "models",
+      "label": "Connected models",
+      "value": "12",
+      "change": "+2",
+      "changeLabel": "this week",
+      "trend": "up",
+      "icon": "brain",
+      "accent": "mint",
+      "description": "AI models in your workspace"
+    },
+    {
+      "id": "workflows",
+      "label": "Active workflows",
+      "value": "08",
+      "change": "+12.5%",
+      "changeLabel": "vs. last week",
+      "trend": "up",
+      "icon": "workflow",
+      "accent": "blue",
+      "description": "Automations ready to run"
+    },
+    {
+      "id": "decisions",
+      "label": "Decisions processed",
+      "value": "1,284",
+      "change": "+18.2%",
+      "changeLabel": "vs. last week",
+      "trend": "up",
+      "icon": "activity",
+      "accent": "purple",
+      "description": "Intelligent actions completed"
+    },
+    {
+      "id": "uptime",
+      "label": "System availability",
+      "value": "99.9%",
+      "change": "Stable",
+      "changeLabel": "system status",
+      "trend": "stable",
+      "icon": "shield",
+      "accent": "amber",
+      "description": "Workspace availability"
+    }
+  ],
+  "activity": {
+    "title": "Workspace activity",
+    "subtitle": "A snapshot of activity across your workspace.",
+    "total": "1,284",
+    "totalLabel": "Total operations",
+    "change": "+18.2%",
+    "changeLabel": "compared to last week",
+    "series": [
+      { "day": "Mon", "value": 42 },
+      { "day": "Tue", "value": 68 },
+      { "day": "Wed", "value": 51 },
+      { "day": "Thu", "value": 82 },
+      { "day": "Fri", "value": 61 },
+      { "day": "Sat", "value": 91 },
+      { "day": "Sun", "value": 74 }
+    ]
+  },
+  "modules": [
+    {
+      "id": "intelligence",
+      "title": "Intelligence",
+      "description": "Connect and orchestrate your AI models from one workspace.",
+      "icon": "brain",
+      "accent": "mint",
+      "status": "Available",
+      "route": "/intelligence"
+    },
+    {
+      "id": "context",
+      "title": "Context & Memory",
+      "description": "Organize knowledge and maintain context across workflows.",
+      "icon": "database",
+      "accent": "blue",
+      "status": "Available",
+      "route": "/context"
+    },
+    {
+      "id": "workflows",
+      "title": "Workflows",
+      "description": "Build connected processes for repetitive tasks.",
+      "icon": "workflow",
+      "accent": "purple",
+      "status": "Coming soon",
+      "route": "/workflows"
+    }
+  ],
+  "recentActivity": [
+    {
+      "id": "activity-1",
+      "title": "Workspace initialized",
+      "description": "Your workspace is ready to explore.",
+      "time": "Just now",
+      "icon": "sparkles",
+      "status": "success"
+    },
+    {
+      "id": "activity-2",
+      "title": "Intelligence module",
+      "description": "Module overview is available.",
+      "time": "12 minutes ago",
+      "icon": "brain",
+      "status": "info"
+    },
+    {
+      "id": "activity-3",
+      "title": "Security settings",
+      "description": "Workspace controls are ready to configure.",
+      "time": "1 hour ago",
+      "icon": "shield",
+      "status": "success"
+    },
+    {
+      "id": "activity-4",
+      "title": "Workflow center",
+      "description": "Workflow capabilities are being prepared.",
+      "time": "Yesterday",
+      "icon": "workflow",
+      "status": "pending"
+    }
+  ]
+}

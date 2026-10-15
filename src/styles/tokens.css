@@ -1,0 +1,211 @@
+/* =========================================
+   HYBRID OCTOPUS OS
+   DESIGN TOKEN SYSTEM
+   ========================================= */
+
+:root {
+  /* =========================================
+     1. BRAND COLORS
+     ========================================= */
+
+  --color-brand: #75e0c1;
+  --color-brand-strong: #3fc9a5;
+  --color-brand-hover: #9aefd9;
+
+  --color-brand-soft: rgba(117, 224, 193, 0.12);
+  --color-brand-glow: rgba(63, 201, 165, 0.14);
+
+  
+  /* Landing page accent colors */
+  --color-blue: #7aa8ff;
+  --color-amber: #f3c779;
+  --color-green: #78dfac;
+
+  /* Card hover shadow */
+  --shadow-panel: 0 16px 42px rgba(0, 0, 0, 0.22);
+
+
+
+  /* =========================================
+     2. BACKGROUND COLORS
+     ========================================= */
+
+  --color-canvas: #080d18;
+  --color-sidebar: #0a1020;
+
+  --color-surface: #101827;
+  --color-surface-raised: #141f31;
+  --color-surface-hover: #1a2940;
+
+  --color-overlay: rgba(3, 8, 18, 0.72);
+
+
+  /* =========================================
+     3. TYPOGRAPHY COLORS
+     ========================================= */
+
+  --color-text-primary: #f3f6fc;
+  --color-text-secondary: #a1aec2;
+  --color-text-muted: #728098;
+  --color-text-disabled: #4f5d72;
+
+  --color-text-inverse: #07111d;
+
+
+  /* =========================================
+     4. BORDER COLORS
+     ========================================= */
+
+  --color-border: rgba(148, 163, 184, 0.14);
+
+  --color-border-strong: rgba(148, 163, 184, 0.24);
+
+  --color-border-focus: rgba(117, 224, 193, 0.55);
+
+
+  /* =========================================
+     5. STATUS COLORS
+     ========================================= */
+
+  --color-success: #78dfac;
+  --color-warning: #f3c779;
+  --color-danger: #ff8c9b;
+  --color-info: #7aa8ff;
+
+  --color-success-soft: rgba(120, 223, 172, 0.12);
+  --color-warning-soft: rgba(243, 199, 121, 0.12);
+  --color-danger-soft: rgba(255, 140, 155, 0.12);
+  --color-info-soft: rgba(122, 168, 255, 0.12);
+
+
+  /* =========================================
+     6. ADDITIONAL ACCENT COLORS
+     ========================================= */
+
+  --color-purple: #b9a0ff;
+  --color-purple-soft: rgba(185, 160, 255, 0.12);
+
+
+  /* =========================================
+     7. TYPOGRAPHY
+     ========================================= */
+
+  --font-body: "DM Sans", sans-serif;
+  --font-display: "Manrope", sans-serif;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 0.9375rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.375rem;
+  --font-size-2xl: 1.75rem;
+  --font-size-3xl: 2.25rem;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+
+
+  /* =========================================
+     8. SPACING
+     ========================================= */
+
+  --space-0: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+
+  /* =========================================
+     9. BORDER RADIUS
+     ========================================= */
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.375rem;
+  --radius-2xl: 1.75rem;
+
+  --radius-full: 9999px;
+
+
+  /* =========================================
+     10. SHADOWS
+     ========================================= */
+
+  --shadow-sm:
+    0 2px 8px rgba(0, 0, 0, 0.12);
+
+  --shadow-md:
+    0 8px 24px rgba(0, 0, 0, 0.16);
+
+  --shadow-lg:
+    0 16px 42px rgba(0, 0, 0, 0.2);
+
+  --shadow-brand:
+    0 0 0 1px rgba(117, 224, 193, 0.1),
+    0 12px 36px rgba(63, 201, 165, 0.07);
+
+
+  /* =========================================
+     11. LAYOUT
+     ========================================= */
+
+  --sidebar-width: 256px;
+  --topbar-height: 76px;
+
+  --content-max-width: 1600px;
+
+  --page-padding-x: 36px;
+  --page-padding-y: 32px;
+
+
+  /* =========================================
+     12. Z-INDEX
+     ========================================= */
+
+  --z-base: 1;
+  --z-dropdown: 10;
+  --z-sticky: 20;
+  --z-overlay: 40;
+  --z-sidebar: 50;
+  --z-modal: 100;
+  --z-toast: 200;
+
+
+  /* =========================================
+     13. TRANSITIONS
+     ========================================= */
+
+  --transition-fast: 160ms ease;
+  --transition-base: 220ms ease;
+  --transition-slow: 350ms ease;
+
+
+  /* =========================================
+     14. BREAKPOINT REFERENCES
+     CSS custom properties cannot be used
+     directly as media-query conditions.
+     Keep breakpoints documented here.
+     ========================================= */
+
+  /*
+    Mobile:  max-width: 480px
+    Tablet:  max-width: 768px
+    Laptop:  max-width: 1024px
+    Desktop: max-width: 1280px
+  */
+}
